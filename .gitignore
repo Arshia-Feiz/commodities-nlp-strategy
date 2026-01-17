@@ -1,0 +1,67 @@
+# Environment variables and secrets
+.env
+.env.*
+*.env
+!.env.example
+
+# API Keys and credentials
+*_key.txt
+*_secret.txt
+credentials.json
+secrets.json
+config.json
+
+# Data files (as per user request - data cannot be shared)
+# Exclude raw data files commonly used in notebooks
+heards_*.csv
+CI_*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+
+# Allow analysis results in docs folder (keep these)
+!docs/final_figures/*.csv
+
+# Exclude entire Data/ directory if it contains sensitive data
+# Uncomment the next line if Data/ directory should not be committed
+# Data/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Model files (often large)
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.model
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+tmp/
+
+# OS files
+Thumbs.db
+.DS_Store
