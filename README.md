@@ -6,7 +6,8 @@
 
 ## 1. Executive Summary
 
-**Project Type: NUS URAPS**
+**Project Type:** NUS URAPS
+
 **Project Duration:** May 2025 – December 2025  
 **Advisor:** Dr. Ying Chen, National University of Singapore (NUS)
 
